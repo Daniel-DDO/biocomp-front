@@ -1,5 +1,5 @@
 /**
- * Distância de Edição Visual
+ * Distância de Edição
  * Daniel Dionísio — UFRPE — Biologia Computacional
  */
 
@@ -1145,7 +1145,7 @@ export default function App() {
               WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
               marginBottom: 12,
             }}>
-              Distância de Edição Visual
+              Distância de Edição
             </h1>
             <p style={{ fontSize: 13, color: C.dim, lineHeight: 1.7, fontFamily: "'JetBrains Mono', monospace" }}>
               Levenshtein · Needleman-Wunsch · Programação Dinâmica
