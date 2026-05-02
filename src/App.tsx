@@ -848,6 +848,7 @@ function formatSaida526(
   resultado: ResultadoResponse,
 ): string {
   const lines: string[] = [];
+  lines.push(`${texto1} ${texto2}`);
   lines.push(`${resultado.distancia}`);
   resultado.operacoes.forEach((op, i) => {
     const num = i + 1;
